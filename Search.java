@@ -2,6 +2,12 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ *
+ * @author Tales Igor Ebert
+ * Create on 2017-06-16
+ */
+
 public class Search
 {
     // found path counter
