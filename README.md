@@ -1,6 +1,24 @@
 # backtraking_maze_mine
-Algorithm to explore exploring possible paths in a land with mines and walls. Backtracking problem
-From an array (n)x(m), the recursive backtracking algorithm must explore all possibilities of valid paths to the destination represented by the value 4
+Algorithm implementation for
+Solution through "backtracking"
+
+The problem of "Military - Explore territory"!
+
+Scenario: A military man has the important task of entering a hostile territory, exploring all the possibilities of existing paths and mapping a safe path to a final coordinate. There are obstacles that prevent him from pursuing, he needs to check if paths allow passage. He needs to deactivate the land mines that exist along that path. The main objective of the military is to bring back a map indicating all and the best safe route, marking for the other military the free passage coordinates and the location of each mine found and deactivated.
+ 
+Backtracking: To solve this problem it is necessary to implement a backtracking and recursive algorithm. The proposal is similar to the implementations of the proposed labyrinth solutions with small adjustments to satisfy the initial proposal.
+ 
+Rules for implementation:
+The terrain will be interpreted by an array of NxM dimensions, where each coordinate is 1km x 1km;
+Any obstacles are represented by 1, including walls that limit the terrain;
+Active mines are represented by 9 and have an operating cost of 4 points;
+The free walking parts are represented by 0 and have an operating cost of 1 point;
+The final destination of the military, will be indicated as 4 and has no cost of operation;
+When the military man finds a way that leads him to the end, he must score all the way with the number 3;
+When the soldier finds a landmine by the way, he should mark it as 7;
+Any piece of land that is not used in the path must remain marked 0 or 9;
+ 
+Results: The recursive backtracking algorithm runs from the position x (1), y (1), all possible paths with the order (north, south, east and west), marking the position as 3 for path used, 7 for Mine and 8 for final position. Every time you find a dead-end path, the recursion will drop to the last valid path. 
 
 Input Matrix:
  <br>{{1, 1, 1, 1}, // first state
