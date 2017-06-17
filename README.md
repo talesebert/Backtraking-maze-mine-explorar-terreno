@@ -2,6 +2,8 @@
 Algorithm implementation for
 Solution through "backtracking"
 
+See PDF on: https://docs.google.com/document/d/1HRbpfoH_UrKZf4glPlNo_NGuJrUQGye1bGWqRvydKHE/pub
+
 The problem of "Military - Explore territory"!
 
 Scenario: A military man has the important task of entering a hostile territory, exploring all the possibilities of existing paths and mapping a safe path to a final coordinate. There are obstacles that prevent him from pursuing, he needs to check if paths allow passage. He needs to deactivate the land mines that exist along that path. The main objective of the military is to bring back a map indicating all and the best safe route, marking for the other military the free passage coordinates and the location of each mine found and deactivated.
