@@ -125,7 +125,7 @@ public class Search
     {
         // get fisrt state and search recursive path
         State first = new State();
-        //first.enableDebug(); // show all valid states with path
+        first.enableDebug(); // show all valid states with path
         solve(first);
         
         System.out.println("We found "+Search.states_found.size()+" path(s)! For view, enable debug!\n");
