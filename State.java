@@ -2,9 +2,14 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *
+ * @author Tales Igor Ebert
+ * Create on 2017-06-16
+ */
 public class State
 {
-    /*private int[][] m = {{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, // labirinto zerado
+    /*private int[][] m = {{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, // maze_mine_big
                          {1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1},
                          {1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1},
                          {1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1},
@@ -20,7 +25,7 @@ public class State
                          {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}};
     
     */
-    int[][] m =    {{1, 1, 1, 1}, // labirinto zerado
+    int[][] m =    {{1, 1, 1, 1}, // maze_min_little
                     {1, 0, 0, 1},
                     {1, 9, 0, 1},
                     {1, 0, 4, 1},

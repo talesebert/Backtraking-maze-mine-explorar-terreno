@@ -15,6 +15,9 @@ At the end, all valid states (paths found) are stored in a list of states in the
 
 The FindBest class is just to find the best path.
 
+compile: javac Search.java State.java FindBest.java
+run: java Search
+
 The final output result is something like this: 
 <br>Run:<br>
 Path found!

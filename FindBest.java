@@ -1,15 +1,9 @@
 import java.util.List;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
  * @author Tales Igor Ebert
- * Create on 16/06/2017
+ * Create on 2017-06-16
  */
 public class FindBest {
     private State best_state;
