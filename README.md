@@ -1,6 +1,6 @@
 # backtraking_maze_mine
 Algorithm to explore exploring possible paths in a land with mines and walls. Backtracking problem
-From an array (n) x (m), the recursive backtracking algorithm must explore all possibilities of valid paths to the destination represented by the value 4
+From an array (n)x(m), the recursive backtracking algorithm must explore all possibilities of valid paths to the destination represented by the value 4
 
 Input Matrix:
  <br>{{1, 1, 1, 1}, // first state
@@ -15,8 +15,8 @@ At the end, all valid states (paths found) are stored in a list of states in the
 
 The FindBest class is just to find the best path.
 
-The final output result is something like this: Run:
-<br>
+The final output result is something like this: 
+<br>Run:<br>
 Path found!
 <br>1 1 1 1 
 <br>1 3 0 1 
@@ -89,5 +89,5 @@ We found 4 path(s)! For view, enable debug!
 <br>1 9 3 1 
 <br>1 0 8 1 
 <br>1 1 1 1 
-The best path :) with only: cost 3 and travaled 4Km
-BUILD SUCCESSFUL (total time: 0 seconds)<br>
+<br>The best path :) with only: cost 3 and travaled 4Km
+<br>BUILD SUCCESSFUL
