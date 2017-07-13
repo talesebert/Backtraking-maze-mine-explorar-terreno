@@ -23,11 +23,11 @@ Any piece of land that is not used in the path must remain marked 0 or 9;
 Results: The recursive backtracking algorithm runs from the position x (1), y (1), all possible paths with the order (north, south, east and west), marking the position as 3 for path used, 7 for Mine and 8 for final position. Every time you find a dead-end path, the recursion will drop to the last valid path. 
 
 Input Matrix:
- <br>{{1, 1, 1, 1}, // first state
- <br>{1, 0, 0, 1},
- <br>(1, 9, 0, 1)
- <br>{1, 0, 4, 1},
- <br>{1, 1, 1, 1}; Where the walls are represented by 1, the paths free by 0, 4 as the end, and the mines by number 9.
+ <br>(1, 1, 1, 1,) // first state
+ <br>(1, 0, 0, 1,)
+ <br>(1, 9, 0, 1,)
+ <br>(1, 0, 4, 1,)
+ <br>(1, 1, 1, 1 ); Where the walls are represented by 1, the paths free by 0, 4 as the end, and the mines by number 9.
 
 The algorithm will mark the valid path with 3, mines found by 7, and the end by 8.
 
